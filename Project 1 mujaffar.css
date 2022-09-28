@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>  
+<body>
+<div>
+<style>
+	a:link {
+	color: white;
+  background-color: transparent;
+  text-decoration: none;
+	}
+	.myDiv {
+	background-image: url('assets/pic1.jpg'); img 
+  opacity: 0.2; background-repeat: no-repeat;  background-attachment: fixed; background-size: cover;
+	}
+</style>
+<div class="myDiv">>
+    <header style="background-color:orangered; opacity: 0.7;">
+         
+          <img src="assets/logo.png" alt="Trulli" width="50" height="50">
+            <a href="Home">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Services">Services</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Ourclient">Our Client</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Contactus">Contact Us</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </header>
+<br>
+<br>
+<br>
+<head>
+	<style>
+		h1 {text-align: center; }
+		p {text-align: center; }
+
+	</style>
+</head>
+
+	<h1 style="color:white;">Welcome to My Online Meal</h1>
+	<p style="color:white;">It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering.
+<br>
+<br>
+<button type="button" onclick="order now">Order Now</button></p>
+<br>
+<br>
+		</div>
+	</head>
+<br>
+</body>
+<head>
+
+<style>
+h2 {text-align: center; }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+ border-style: solid;
+  border-color: red;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Our Services</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+	<img src="assets/1.png" alt="Trulli" width="150" height="150">
+      <h3>Food Catering</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+	<img src="assets/2.png" alt="Trulli" width="150" height="150">
+      <h3>Bulk Ordering</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+	<img src="assets/3.png" alt="Trulli" width="150" height="150">
+      <h3>Food Ordering</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+</body>
+<br>
+<br>
+<body>
+	<style>
+	.middlediv {
+		background-image: url('assets/bg.jpg');
+		img opacity: 0.2; background-repeat: repeat-x;  background-attachment: fixed; background-size: cover;
+		}
+	</style>
+	<div class="middlediv">
+		<h2>Our Clients</h2>
+		<p><img src="assets/logo1.png" alt="Trulli" width="150" height="150">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="assets/logo2.png" alt="Trulli" width="150" height="150">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="assets/logo3.png" alt="Trulli" width="150" height="150">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="assets/logo4.png" alt="Trulli" width="150" height="150">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</p>
+<br>
+	</div>
+
+</body>
+
+<body>
+	<style>
+	.container {text-align: center;	background-image: url('assets/contact.jpg'); 
+	img opacity: 0.9; background-repeat: repeat-x;  background-attachment: fixed; background-size: cover;
+	}
+	</style>
+        <div class="container"style="test-align: center";>
+            
+             <h2 class="h2 mb-4 text-center">Contact Us</h2>
+​
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Name:</label>
+								<br>
+                                <input type="text" class="form-control" id="Enter your name" name="Enter your name" placeholder="Enter your name">
+                            </div>
+                     
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+							<br>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+							<br>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone">
+                        </div>
+						
+						<div class="form-group">
+                            <label for="address">Message:</label>
+							<br>
+                            <input type="address" class="form-control" id="address" name="address">
+                        </div>
+​
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                    <div id="output"></div>
+                </div>
+            </div>      
+        </div>
+    </body>
